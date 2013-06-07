@@ -31,6 +31,10 @@ to build originate here, not in the actual software.
 * first check the comments in the AUR forum if someone has the same problem
 * if it isn't reported/solved yet, and you do, leave them a note in that forum
 * remove i686 from the ARCH array (or x86\_64 if you run a 386 processor)
+> often these are required for a proper dl url
+* go to the download location of your `makepkg`
+> check version numbers against eachother
+> md5sum a new hash if some files changed, compare with that in the PKGBUILD
 * add single quotes to the elements (e.g. ARCH=('x86\_64' not ARCH=(x86\_64))
 * remove a dependency if it can't be found by the downloader or rename if wrongly
 * any URLs that are dead, try to provide one thats alive (prefered) or remove
